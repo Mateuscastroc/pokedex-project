@@ -1,4 +1,12 @@
 .pokedex-footer {
+    display: flex;
     font-family: 'Poppins' ;
     background-color: #E63B3B;
+    list-style: none;
+ 
+}
+
+.pokedex-footer li {
+    margin-left: 10px;
+
 }

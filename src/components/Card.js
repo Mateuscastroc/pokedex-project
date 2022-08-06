@@ -1,4 +1,5 @@
 import './Card.css'
+import React from 'react';
 function Card(){
     const PokemonName = 'Bullbassauro';
     const Descricao = 'Vive Na Grama';
@@ -6,7 +7,10 @@ function Card(){
         <div>
 
             <div className="card">
-            <img alt="Foto Pokemao" ></img>
+            {/*
+                <img alt="Foto Pokemao" ></img>
+            */}
+
             <div className="container">
                 <h4><b>{PokemonName}</b></h4> 
                 <p>{Descricao}</p> 
