@@ -1,8 +1,6 @@
 import './Card.css'
 import React from 'react';
-function Card(){
-    const PokemonName = 'Bullbassauro';
-    const Descricao = 'Vive Na Grama';
+function Card(props){
     return(
         <div>
 
@@ -12,8 +10,8 @@ function Card(){
             */}
 
             <div className="container">
-                <h4><b>{PokemonName}</b></h4> 
-                <p>{Descricao}</p> 
+                <h4><b>{props.pokemonName}</b></h4> 
+                <p>{props.pokemonDescricao}</p> 
             </div>
             </div> 
         </div>

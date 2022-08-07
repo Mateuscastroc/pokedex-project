@@ -1,8 +1,27 @@
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+}
+footer a {
+    color: #E63B3B;
+}
+a {
+    color: black;
+}
 .pokedex-footer {
+    justify-content: center;
+    align-content: space-between;
     display: flex;
     font-family: 'Poppins' ;
-    background-color: #E63B3B;
+    color: #E63B3B;
     list-style: none;
+    padding: 10px;
+ 
+}
+.pokedex-footer li:hover {
+    cursor:pointer;
+    color: rgb(247, 239, 228);
  
 }
 

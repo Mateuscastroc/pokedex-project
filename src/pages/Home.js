@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Footer from '../components/Footer';
 import './Home.css'
 
 function Home () {
     return (
-        <div>
+        <div className='main-frame'>
             <div className='pokedex-title'>
                 <h1>
                     Pokedex
@@ -15,13 +16,14 @@ function Home () {
                 Projeto pra estudo, criado com base no famoso game Pokemon
             </div>
 
-            <div>
-                <Link className='text-decoration' to="/pokedex">
-                    <div className='pokedex-access-button'>
-                        Acessar Pokedex
-                    </div>
-                </Link>
+            <div className='pokedex-pokemon-div'>
+                <div className='pokedex-access-button'>
+                    <Link to="/pokedex" className='text-decoration'>
+                                Acessar Pokedex
+                    </Link>
+                </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 }
