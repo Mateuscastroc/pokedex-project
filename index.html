@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="./index.js"></script>
-    <title>Listagem Pokemons</title>
+    <title>Listagem Pokemons</title>  
   </head>
   <body>
     <main>
@@ -22,13 +21,13 @@
         <p class="pokemon_name">Name</p>
       </div>
 
-      <form class="pokemon-form" action="submit">
         <input
+          class="pokemon-form"
           style="text-align: center"
           placeholder="Name or number"
           type="text"
+          id="input-values"
         />
-      </form>
 
       <div class="buttons-position">
         <a class="button">Voltar</a>
@@ -36,4 +35,5 @@
       </div>
     </main>
   </body>
+  <script src="index.js"></script>
 </html>

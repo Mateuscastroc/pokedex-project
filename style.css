@@ -17,6 +17,7 @@ h1 {
   border-radius: 5px;
   background-color: whitesmoke;
   text-align: center;
+  box-shadow:  3px 4px;
 }
 .pokemon-form {
   display: inline-block;

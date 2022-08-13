@@ -1,7 +1,7 @@
 // ------- Variaveis----------
 let pokemonName = document.querySelector('.pokemon_name');
 let pokemonNumber = document.querySelector('.pokemon_number');
-let pokemonFormRequest = document.querySelector('.input-values').value;
+let pokemonFormRequest = document.getElementById('input-values');
 let pokemonSprite = document.getElementById('pokemon-sprite');
 
 async function fetchData(information) {
@@ -20,4 +20,5 @@ async function fetchData(information) {
   pokemonSprite.src = pokemon.sprite;
 }
 
-fetchData('5');
+console.log('input', pokemonFormRequest.values);
+fetchData('429');
