@@ -20,5 +20,5 @@ async function fetchData(information) {
   pokemonSprite.src = pokemon.sprite;
 }
 
-console.log('input', pokemonFormRequest.values);
-fetchData('429');
+console.log('input', pokemonFormRequest);
+fetchData('30');
